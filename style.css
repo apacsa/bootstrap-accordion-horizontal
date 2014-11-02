@@ -1,0 +1,73 @@
+﻿/*
+@media (max-height:320px){	
+	.panel {width:60%;}
+}
+@media (min-height:480px){
+	.panel {width:60%;}
+}
+@media (min-height:800px){
+	
+	.panel {width:60%;}
+}
+@media (min-height:1080){
+	
+	.panel {width:60%;}
+}
+ /* width controls the height of accordion, if it set to "pull-right", it will reside on top-left corner of the monitor */
+ #accordion {width:90vh;}
+.panel {width:100%;}
+.panel-group {
+  z-index: 100;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateX(-100%) rotate(-90deg);
+  -webkit-transform-origin: right top;
+  -moz-transform: translateX(-100%) rotate(-90deg);
+  -moz-transform-origin: right top;
+  -o-transform: translateX(-100%) rotate(-90deg);
+  -o-transform-origin: right top;
+  transform: translateX(-100%) rotate(-90deg);
+  transform-origin: right top;
+}
+.panel-heading {
+  height: 80%;
+}
+.panel-title {
+  height:18px;
+}
+.panel-title a {
+  float:right;
+  text-decoration:none;
+  padding: 10px 0px;
+  margin: -10px 0px;
+}
+.panel-body {
+  height:auto;
+}
+.cont {
+   width: 40%;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateX(0%) rotate(90deg);
+  -webkit-transform-origin: left top;
+  -moz-transform: translateX(0%) rotate(90deg);
+  -moz-transform-origin: left top;
+  -o-transform: translateX(0%) rotate(90deg);
+  -o-transform-origin: left top;
+  transform: translateX(0%) rotate(90deg);
+  transform-origin: left top;
+}
+.cont {
+  /*margin-left:1000px;*/
+  position: absolute;
+}
+/*
+.vertical{
+    writing-mode:tb-rl;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -o-transform: rotate(90deg);
+    white-space:nowrap;
+    display:block;
+    bottom:0;
+    width:20px;
+    height:20px;
+}*/
